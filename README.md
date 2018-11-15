@@ -7,3 +7,7 @@ Avancées : Page login fonctionnelle, début de page Employé avec les onglets f
 09/11 : 
 Objectif : Continuer la page salarié 
 Avancées : Fiche salarié bientôt terminée, problème avec le calendrier mais on touche au but (balise full-calendar non reconnue)
+
+15/11 : 
+Objectif : Mise en place du calendrier 
+Avancées : Calendrier fonctionnel, avancée sur le responsive et la structure de données en JSON
