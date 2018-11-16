@@ -1,5 +1,7 @@
 Projet GTA
 
+Identifiants de connexion : admin/admin
+
 08/11 : 
 Objectif : Démarrer le projet </br> 
 Avancées : Page login fonctionnelle, début de page Employé avec les onglets fonctionnels, début de la page Fiche salarié.
