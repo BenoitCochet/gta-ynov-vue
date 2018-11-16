@@ -1,12 +1,12 @@
 <template>
-  <b-card no-body>
+
 	  <b-tabs pills card>
 	    <b-tab title="Fiche Salarié" active>
           <Form></Form>       
 	    </b-tab>
 	    <b-tab title="Planning">
           <Calendar></Calendar>
-	    </b-tab>
+	    </b-tab> 
       <b-tab title="Tableau de bord">
         <label>Compteur d'heure</label>
         <b-tabs>
@@ -22,7 +22,6 @@
         </b-tabs>
       </b-tab>
 	  </b-tabs>
-	</b-card>
 </template>
 <script>
 import Calendar from './Calendar.vue'
