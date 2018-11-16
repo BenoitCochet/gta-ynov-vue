@@ -1,5 +1,5 @@
 <template>
-  <div><Navbar></Navbar>
+  <div class="col-md-12"><Navbar></Navbar>
   <Onglet></Onglet></div>
 </template>
 

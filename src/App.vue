@@ -1,12 +1,12 @@
 <template>
-    <div id="app">
+    <div class="container-fluid" id="app">
         <div id="nav">
             <router-link v-if="authenticated" to="/login" v-on:click.native="logout()" replace>Logout</router-link>
         </div>
         <router-view @authenticated="setAuthenticated" />
     </div>
 </template>
-
+ 
 <script>
     import router from "./router"
     export default {

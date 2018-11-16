@@ -2,48 +2,39 @@
   <b-card no-body>
 	  <b-tabs pills card>
 	    <b-tab title="Fiche Salarié" active>
-        <label style='float:left;'>Date de naissance: {{ date }}</label>
-	      <b-form-input v-model="date"
-                  type="text"
-                  placeholder="Date de naissance"></b-form-input></br>
-        <label style='float:left;'>Mail: {{ mail }}</label>
-        <b-form-input v-model="mail"
-                  type="text"
-                  placeholder="Mail"></b-form-input></br>
-        <label style='float:left;'>Adresse: {{ addr }}</label>
-        <b-form-input v-model="addr"
-                  type="text"
-                  placeholder="Adresse"></b-form-input></br>
-        <label style='float:left;'>Téléphone: {{ tel }}</label>
-        <b-form-input v-model="tel"
-                  type="text"
-                  placeholder="Téléphone"></b-form-input>
-                            
-                  
+          <Form></Form>       
 	    </b-tab>
 	    <b-tab title="Planning">
           <Calendar></Calendar>
 	    </b-tab>
       <b-tab title="Tableau de bord">
-        Tab Contents 2
+        <label>Compteur d'heure</label>
+        <b-tabs>
+          <b-tab title="Journée" active>
+            <br>I'm the first fading tab
+          </b-tab>
+          <b-tab title="Semaine" >
+            <br>I'm the second tab content
+          </b-tab>
+          <b-tab title="Année">
+            <br>Disabled tab!
+          </b-tab>
+        </b-tabs>
       </b-tab>
 	  </b-tabs>
 	</b-card>
 </template>
 <script>
 import Calendar from './Calendar.vue'
+import Form from '../views/form.vue'
 
 export default {
   name:'Onglet',
   data () {
     return {
-      date: '',
-      mail: '',
-      addr: '',
-      tel: ''
     }
   },
-  components : {Calendar}
+  components : {Calendar, Form}
 }
 </script>
 <style lang="scss">
@@ -72,4 +63,29 @@ li {
 a {
   color: #42b983;
 }
+/*
+@media(max-width:767px){
+  .form-control{
+    width: 200px !important;
+  }
+}
+
+@media(min-width:768px){
+  .form-control{
+    width: 200px !important;
+  }
+}
+
+@media(min-width:992px){
+  .form-control{
+    width: 200px !important;
+  }
+}
+
+@media(min-width:1200px){
+  .form-control{
+    width: 100% !important;
+  }
+}
+*/
 </style>
