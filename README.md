@@ -11,3 +11,6 @@ Avancées : Fiche salarié bientôt terminée, problème avec le calendrier mais
 15/11 : 
 Objectif : Mise en place du calendrier </br>
 Avancées : Calendrier fonctionnel, avancée sur le responsive et la structure de données en JSON
+
+16/11 :
+Objectif : Améliorer l'interface responsive et démarrer la partie tableau de bord</br>
