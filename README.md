@@ -19,4 +19,4 @@ Objectif : Améliorer l'interface responsive et démarrer la partie tableau de b
 Avancées : Plusieurs essais de mise en page de l'interface qui n'ont pas aboutis. Problème de mise à l'échelle.
 
 22/11 :
-Objectif : Permettre de saisir des congés et de les afficher sur le planning. Problème sur le responsive réglé.</br>
+Objectif : Déploiement sur github. Permettre de saisir des congés et de les afficher sur le planning. Problème sur le responsive réglé.</br>
