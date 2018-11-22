@@ -51,4 +51,7 @@ a {
 body{
   background: white;
 }
+.navbar-toggler{
+  display: none;
+}
 </style>

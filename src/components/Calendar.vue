@@ -30,3 +30,26 @@
 	}
 	
 </script>
+
+<style type="text/css">
+@media(max-width:767px){
+  .label{
+    font-size: 25px;
+  }
+  .fc-view-container{
+    font-size: 10px;
+  }
+  #calendar{
+  	font-size: 12px;
+  }
+  .fc-axis{
+  	width: 30px !important;
+  }
+  .fc-center{
+  	margin-top: 15px;
+  }
+  h2{
+  	font-size: 18px;
+  }
+}
+</style>
