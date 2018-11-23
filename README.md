@@ -22,3 +22,6 @@ Avancées : Plusieurs essais de mise en page de l'interface qui n'ont pas abouti
 22/11 :
 Objectif : Déploiement sur github. Permettre de saisir des congés et de les afficher sur le planning. Problème sur le responsive réglé.</br>
 Avancées : App déployée sur github. Avancée sur le responsive et sur le front. Installation et début de configuration de PouchDB.
+
+23/11 :
+Objectif : Avancer sur PouchDB, mise en place de la base et de la liaison avec la planning.
