@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import LoginComponent from "./views/login.vue"
 import EmployeComponent from "./views/employe.vue"
+import ManagerComponent from "./views/manager.vue"
+
 
 Vue.use(Router)
 
@@ -22,6 +24,11 @@ export default new Router({
             path: "/employe",
             name: "employe",
             component: EmployeComponent
+        },
+        {
+            path: "/manager",
+            name: "manager",
+            component: ManagerComponent
         }
     ]
 })

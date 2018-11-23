@@ -15,9 +15,13 @@
         data() {
             return {
                 authenticated: false,
-                mockAccount: {
-                    username: "admin",
-                    password: "admin"
+                managerAccount: {
+                    username: "manager",
+                    password: "manager"
+                },
+                employeAccount: {
+                    username: "employe",
+                    password: "employe"
                 }
             }
         },

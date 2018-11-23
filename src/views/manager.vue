@@ -4,8 +4,8 @@
 </template>
 
 <script>
-  import Onglet from '../components/OngletSalarie.vue'
-  import Navbar from '../components/NavbarSalarie.vue'
+  import Onglet from '../components/OngletManager.vue'
+  import Navbar from '../components/NavbarManager.vue'
 
 export default {
   name: 'app',

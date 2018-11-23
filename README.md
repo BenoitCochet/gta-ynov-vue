@@ -1,6 +1,6 @@
 Projet GTA
 
-Identifiants de connexion : admin/admin
+Identifiants de connexion : manager/manager & employe/employe
 Lien : https://benoitcochet.github.io/#/login
 
 08/11 : 
@@ -24,4 +24,5 @@ Objectif : Déploiement sur github. Permettre de saisir des congés et de les af
 Avancées : App déployée sur github. Avancée sur le responsive et sur le front. Installation et début de configuration de PouchDB.
 
 23/11 :
-Objectif : Avancer sur PouchDB, mise en place de la base et de la liaison avec la planning.
+Objectif : Avancer sur PouchDB, mise en place de la base et de la liaison avec la planning. </br> 
+Avancées : Possibilité de saisir des créneaux, ajout de l'espace manager, avancée sur la création d'un salarié dans la base de données afin de pouvoir lui attribuer des créneaux par la suite.

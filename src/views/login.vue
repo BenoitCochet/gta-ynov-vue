@@ -8,6 +8,7 @@
 </template>
 
 <script>
+    
     export default {
         name: 'login',
         data() {
@@ -21,9 +22,12 @@
         methods: {
             login() {
                 if(this.input.username != "" && this.input.password != "") {
-                    if(this.input.username == this.$parent.mockAccount.username && this.input.password == this.$parent.mockAccount.password) {
+                    if(this.input.username == this.$parent.employeAccount.username && this.input.password == this.$parent.employeAccount.password) {
                         this.$emit("authenticated", true);
                         this.$router.replace({ name: "employe" });
+                    } else if(this.input.username == this.$parent.managerAccount.username && this.input.password == this.$parent.managerAccount.password) {
+                        this.$emit("authenticated", true);
+                        this.$router.replace({ name: "manager" });
                     } else {
                         console.log("The username and / or password is incorrect");
                     }

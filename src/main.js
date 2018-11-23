@@ -10,7 +10,6 @@ import FullCalendar from 'vue-full-calendar'
 
 Vue.use(BootstrapVue)
 Vue.use(FullCalendar)
-
 new Vue({
   el: '#app',
   render: h => h(App)
