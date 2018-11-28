@@ -8,21 +8,32 @@
 </template>
  
 <script>
+    var db = new PouchDB('employes');
     import router from "./router"
+     var employe = {};
+     var managerAccount= {
+                    username: "manager",
+                    password: "manager"
+                };
+    console.log(managerAccount);
+    db.allDocs({
+      include_docs: true,
+      attachments: true
+    }).then(function (result) {
+      for(var empl in result.rows){
+        employe[empl] = {username:result.rows[empl].doc.nom,password:result.rows[empl].doc.nom,Id:result.rows[empl].doc._id}; 
+      }
+    }).catch(function (err) {
+      console.log(err);
+    });
     export default {
         name: 'App',
         router,
         data() {
             return {
                 authenticated: false,
-                managerAccount: {
-                    username: "manager",
-                    password: "manager"
-                },
-                employeAccount: {
-                    username: "employe",
-                    password: "employe"
-                }
+                managerAccount: managerAccount,
+                employeAccount: employe
             }
         },
         mounted() {

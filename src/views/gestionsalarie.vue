@@ -30,7 +30,7 @@
 </template>
 
 <script>
-  var db = new PouchDB('employes');
+ // var db = new PouchDB('employes');
 
     db.changes().on('change', function() {
         console.log('Changes');
@@ -58,7 +58,7 @@ export default {
           tel:tel,
           mail:mail
         });
-        //console.log(db.get(prenom+nom));
+        console.log(db.get(prenom+nom));
       }
     },
 }

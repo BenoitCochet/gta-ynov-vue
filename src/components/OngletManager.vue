@@ -11,13 +11,13 @@
         <label>Compteur d'heure</label>
         <b-tabs>
           <b-tab title="Journée" active>
-            <br>I'm the first fading tab
+            <br>
           </b-tab>
           <b-tab title="Semaine" >
-            <br>I'm the second tab content
+            <br>
           </b-tab>
           <b-tab title="Année">
-            <br>Disabled tab!
+            <br>
           </b-tab>
         </b-tabs>
       </b-tab>
