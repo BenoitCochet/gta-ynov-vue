@@ -1,6 +1,9 @@
 Projet GTA
 
-Identifiants de connexion : manager/manager & employe/employe
+Identifiants de connexion : manager/manager 
+Depuis la page manager, créer un employé, puis sur la page de login, on peut se connecter au compte de cet employé avec ses identifiants qui sont : </br>
+login : nom de l'employé renseigné sur la page manager </br>
+mdp : nom de l'employé renseigné sur la page manager </br>
 Lien : https://benoitcochet.github.io/#/login
 
 08/11 : 
@@ -26,3 +29,7 @@ Avancées : App déployée sur github. Avancée sur le responsive et sur le fron
 23/11 :
 Objectif : Avancer sur PouchDB, mise en place de la base et de la liaison avec la planning. </br> 
 Avancées : Possibilité de saisir des créneaux, ajout de l'espace manager, avancée sur la création d'un salarié dans la base de données afin de pouvoir lui attribuer des créneaux par la suite.
+
+28/11 :
+Objectif : Terminer la possibilité de créer des employés depuis la page manager </br>
+Avancées : Création d'employés possible mais utilisation de pouchDB assez instable, nécessité de reload la page lorsqu'un créneau est ajouté dans le calendrier.
