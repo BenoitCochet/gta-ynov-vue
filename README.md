@@ -1,5 +1,7 @@
 Projet GTA
 
+/!\ Problème avec l'appli et pouchDB sur le .io, je vous conseille de tester en locale.
+
 Identifiants de connexion : manager/manager 
 Depuis la page manager, créer un employé, puis sur la page de login, on peut se connecter au compte de cet employé avec ses identifiants qui sont : </br>
 login : nom de l'employé renseigné sur la page manager </br>
