@@ -58,7 +58,7 @@ export default {
           tel:tel,
           mail:mail
         });
-        console.log(db.get(prenom+nom));
+        location.reload();
       }
     },
 }

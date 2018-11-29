@@ -8,21 +8,24 @@
 </template>
  
 <script>
-    var db = new PouchDB('employes');
+    
     import router from "./router"
+
      var employe = {};
      var managerAccount= {
                     username: "manager",
                     password: "manager"
                 };
-    console.log(managerAccount);
+    var db = new PouchDB('employes');
     db.allDocs({
       include_docs: true,
       attachments: true
     }).then(function (result) {
-      for(var empl in result.rows){
-        employe[empl] = {username:result.rows[empl].doc.nom,password:result.rows[empl].doc.nom,Id:result.rows[empl].doc._id}; 
-      }
+        if(result.total_rows>0){
+            for(var empl in result.rows){
+                employe[empl] = {username:result.rows[empl].doc.nom,password:result.rows[empl].doc.nom,Id:result.rows[empl].doc._id}; 
+            }
+        }
     }).catch(function (err) {
       console.log(err);
     });
@@ -50,6 +53,9 @@
             }
         }
     }
+
+
+
 </script>
 
 <style>
