@@ -9,7 +9,11 @@ Identifiants de connexion : manager/manager
 Depuis la page manager, créer un employé, puis sur la page de login, on peut se connecter au compte de cet employé avec ses identifiants qui sont : </br>
 login : nom de l'employé renseigné sur la page manager </br>
 mdp : nom de l'employé renseigné sur la page manager </br>
-Lien : https://benoitcochet.github.io/#/login
+Lien : https://benoitcochet.github.io/#/login </br>
+Si problème de login avec le .io :  https://benoitcochet.github.io/#/manager
+                                    https://benoitcochet.github.io/#/employe
+
+Le login fonctionne en local et parfois sur le .io aussi, mais je n'ai pas d'explications concernant les bugs qui peuvent survenir sur le .io.
 
 08/11 : 
 Objectif : Démarrer le projet </br> 
