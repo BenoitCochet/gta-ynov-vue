@@ -1,6 +1,9 @@
 Projet GTA
 
-/!\ Problème avec l'appli et pouchDB sur le .io, je vous conseille de tester en locale.
+/!\ Problème avec l'appli et pouchDB sur le .io, je vous conseille de tester en locale. /!\
+
+Précision pour le calendar : après ajout d'un créneau, il faut reload la page puis de reconnecter pour le voir ajouté sur le calendrier. </br>
+PouchDB me semble assez instable.
 
 Identifiants de connexion : manager/manager 
 Depuis la page manager, créer un employé, puis sur la page de login, on peut se connecter au compte de cet employé avec ses identifiants qui sont : </br>
